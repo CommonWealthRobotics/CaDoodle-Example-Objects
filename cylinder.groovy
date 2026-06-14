@@ -11,7 +11,7 @@ CSG getObject(){
 		args=["Test_key_here"]
 	ArrayList<Double> options = new  ArrayList<Double> ()
 	int numberOfSidesInt = Integer.parseInt(ConfigurationDatabase.get("CaDoodle", "DefaultNumberOfSides", "16").toString());
-	options.addAll(Arrays.asList(3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,64))
+	options.addAll(Arrays.asList(3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,64,256))
 	LengthParameter word = new LengthParameter(	args[0]+"_CaDoodle_CylinderGeneration_Sides",
 										numberOfSidesInt,options)
 	LengthParameter diam = new LengthParameter(	args[0]+"_CaDoodle_CylinderGeneration_Diameter",

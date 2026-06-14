@@ -12,7 +12,7 @@ CSG getObject(){
 	if(args==null)
 		args=["Test_key_here"]
 	ArrayList<Double> options = new  ArrayList<Double> ()
-	options.addAll(Arrays.asList(2,4,6,8,10,12,14,16,18,64))
+	options.addAll(Arrays.asList(2,4,6,8,10,12,14,16,18,64,256))
 	LengthParameter word = new LengthParameter(	args[0]+"_CaDoodle_CylinderGeneration_Sides",
 											Integer.parseInt(com.neuronrobotics.bowlerstudio.assets.ConfigurationDatabase.get("CaDoodle", "DefaultNumberOfSides", "16").toString())
 ,options)
