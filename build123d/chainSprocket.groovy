@@ -18,35 +18,30 @@ List<CSG> getObject(){
 	for(int i=10;i<=100;i++) {
 		options.add(i);
 	}
-	StringParameter type = new StringParameter(csgdb,
-			args[0]+"_CaDoodle_gggears_Type","SpurGear",
-			new ArrayList<String>(Arrays.asList("BevelGear","CycloidGear","HelicalGear","HelicalRack","InvoluteRack","SpurGear","SpurRingGear")))
 	LengthParameter numTeeth = new LengthParameter(csgdb,
-			args[0]+"_CaDoodle_gggears_Teeth",
+			args[0]+"_CaDoodle_Sprocket_Teeth",
 			23,
 			options)
 	LengthParameter height = new LengthParameter(csgdb,
-		args[0]+"_CaDoodle_gggears_Height",
-		5,
+		args[0]+"_CaDoodle_Sprocket_Height",
+		2.1336,
 		new  ArrayList<Double> (Arrays.asList(1,5,20)))
 	
-	ArrayList<Double> modOpts = new  ArrayList<Double> (Arrays.asList(0.5,0.75,0.8,1,1.25,1.5,1.75,2,2.5,2.75,3,3.25,3.5,3.75,4,4.5,5,5.5,6,7,8))
+	ArrayList<Double> modOpts = new  ArrayList<Double> (Arrays.asList(1,12.7,20))
 	LengthParameter module = new LengthParameter(csgdb,
-		args[0]+"_CaDoodle_gggears_Module",
-		1,
+		args[0]+"_CaDoodle_Sprocket_Chain-Pitch",
+		12.7,
 		modOpts)
-
 	ArrayList<Object> params=new ArrayList< Object>();
-	params.add("py_gearworks")
-	params.add( type.getStrValue())
-	params.add("--number-of-teeth")
+	params.add("bd_warehouse")
+	params.add( "Sprocket")
+	params.add("--num_teeth")
 	params.add((int)numTeeth.getMM())
-	params.add("--height")
+	params.add("--thickness")
 	params.add(height.getMM())
-	params.add("--module")
+	params.add("--chain_pitch")
 	params.add(module.getMM())
 	List<CSG> all=	Build123dLoader.toCSG(csgdb, params)
-
 	for(CSG bin:all) {
 		bin.setNoScale(true)
 		bin.setParameter(csgdb,type)
