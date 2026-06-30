@@ -12,9 +12,9 @@ CSG getObject(){
 	options.addAll(Arrays.asList(1,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,100))
 	ArrayList<Double> optionsSides = new  ArrayList<Double> ()
 	optionsSides.addAll(Arrays.asList(6,7,8,9,10,11,12,13,14,15,16,17,18,19,32))
-	LengthParameter x = new LengthParameter(	args[0]+"_CaDoodle_CubeGeneration_Y",
+	LengthParameter x = new LengthParameter(	args[0]+"_CaDoodle_CubeGeneration_X",
 			20,options)
-	LengthParameter y = new LengthParameter(	args[0]+"_CaDoodle_CubeGeneration_X",
+	LengthParameter y = new LengthParameter(	args[0]+"_CaDoodle_CubeGeneration_Y",
 			20,options)
 	LengthParameter z = new LengthParameter(	args[0]+"_CaDoodle_CubeGeneration_Z",
 			20,options)
