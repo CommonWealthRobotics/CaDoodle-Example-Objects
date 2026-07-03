@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20mm"
+   height="20mm"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="cadoodle-simple.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="8.9722662"
+     inkscape:cx="2.1176367"
+     inkscape:cy="66.036828"
+     inkscape:window-width="1737"
+     inkscape:window-height="1133"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" /><defs
+     id="defs2" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-19.578639,-99.960642)"><g
+       id="g1885"
+       transform="translate(-0.07159749,-71.772034)"><path
+         id="path27"
+         style="fill:#263d8c;fill-opacity:1;stroke-width:0.319625;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:stroke fill markers"
+         d="m 19.645499,182.19382 a 9.5887664,9.5887664 0 0 1 9.588766,9.58876 h -9.588766 z" /><path
+         id="path28"
+         style="fill:#f2c83d;fill-opacity:1;stroke-width:0.319625;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:stroke fill markers"
+         d="m 10.056797,191.78258 a 9.5887664,9.5887664 0 0 0 9.58883,9.58852 9.5887664,9.5887664 0 0 0 9.58851,-9.58852 h -9.58851 z" /><path
+         id="path29"
+         style="fill:#bb1f09;fill-opacity:1;stroke-width:0.319625;stroke-linecap:square;stroke-miterlimit:5.5;paint-order:stroke fill markers"
+         d="m 10.056797,191.78265 h 4.794255 v -8.30413 a 9.5887664,9.5887664 0 0 0 -4.794255,8.30413 z" /></g></g></svg>
