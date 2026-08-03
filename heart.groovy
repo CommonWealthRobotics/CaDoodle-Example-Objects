@@ -5,7 +5,7 @@ import eu.mihosoft.vrl.v3d.svg.SVGLoad
 import javafx.scene.paint.Color
 File f = ScriptingEngine
 .fileFromGit(
-	"https://github.com/madhephaestus/CaDoodle-Example-Objects.git",//git repo URL
+	"https://github.com/CommonWealthRobotics/CaDoodle-Example-Objects.git",//git repo URL
 	null,//branch
 	"heart.SVG"// File from within the Git repo
 )
