@@ -6,24 +6,27 @@ import eu.mihosoft.vrl.v3d.Cube
 import javafx.scene.paint.Color
 
 import eu.mihosoft.vrl.v3d.parametrics.*;
-CSG getObject(){
+CSG getObject(CSGDatabaseInstance csgdb){
 	if(args==null)
 		args=["Test_key_here"]
 	ArrayList<Double> options = new  ArrayList<Double> ()
 	options.addAll(Arrays.asList(4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,64,256))
-	LengthParameter word = new LengthParameter(	args[0]+"_CaDoodle_ShereGeneration_Sides",
+	LengthParameter word = new LengthParameter(csgdb,	args[0]+"_CaDoodle_ShereGeneration_Sides",
 											Integer.parseInt(com.neuronrobotics.bowlerstudio.assets.ConfigurationDatabase.get("CaDoodle", "DefaultNumberOfSides", "16").toString())
 ,options)
-
+	LengthParameter diam = new LengthParameter(csgdb,	args[0]+"_CaDoodle_ShereGeneration_Diameter",
+		20,[])
+			if(diam.getMM()<0.001)
+				diam.setMM(0.001);
 	int getMM2 = (int)(word.getMM()/2)
 	if(getMM2<2)getMM2=2
 	
-	CSG toCSG = new Sphere(10,(int)(word.getMM()),getMM2).toCSG().rotx(90)
+	CSG toCSG = new Sphere(diam.getMM()/2.0,(int)(word.getMM()),getMM2).toCSG().rotx(90)
 	toCSG=toCSG.intersect(toCSG.getBoundingBox().toZMin())
 	CSG text = toCSG.toZMin().setColor(Color.PINK)
-	CSGDatabase.saveDatabase();
 	return text
-		.setParameter(word)
+		.setParameter(csgdb,word)
+		.setParameter(csgdb,diam)
 		.setRegenerate({getObject()})
 }
-return getObject()
+return getObject(csgdb)
