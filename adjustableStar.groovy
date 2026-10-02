@@ -41,6 +41,7 @@ CSG getObject(){
 		parts.add( HullUtil.hull(points).movex(-0.01).rotz(i))
 	}
 	CSG star = CSG.unionAll(parts)
+	star.setColor(Color.LIGHTGREEN)
 	return star
 	.setParameter(word)
 	.setParameter(top)
