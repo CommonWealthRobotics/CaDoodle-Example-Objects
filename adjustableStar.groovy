@@ -41,7 +41,6 @@ CSG getObject(){
 		parts.add( HullUtil.hull(points).movex(-0.01).rotz(i))
 	}
 	CSG star = CSG.unionAll(parts)
- 	CSGDatabase.saveDatabase();
 	return star
 	.setParameter(word)
 	.setParameter(top)

@@ -20,7 +20,6 @@ CSG getObject(){
 	int getMM = (int)word.getMM()
 	
 	CSG text =  new Toroid(top.getMM(),bottom.getMM(),getMM,getMM).toCSG().rotx(90).toZMin().setColor(Color.BLUE)
-	CSGDatabase.saveDatabase();
 	return text
 		.setParameter(word)
 		.setParameter(top)

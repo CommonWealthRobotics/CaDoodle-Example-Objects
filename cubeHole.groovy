@@ -66,7 +66,6 @@ CSG getObject(){
 	}
 
 	CSG cube =  local.toZMin().setColor(Color.WHITE).setIsHole(true);
-	CSGDatabase.saveDatabase();
 	return cube
 			.setParameter(rad)
 			.setParameter(chamfer)

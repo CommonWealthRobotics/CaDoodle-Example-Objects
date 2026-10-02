@@ -21,7 +21,6 @@ CSG getObject(){
 	CSG toCSGToZMin = new Cylinder(10,10,20,getMM).toCSG().toZMin()
 	toCSGToZMin=toCSGToZMin.rotx(90).moveToCenterY().intersect(toCSGToZMin.getBoundingBox())
 	CSG text =  toCSGToZMin.setColor(Color.LIGHTBLUE)
-	CSGDatabase.saveDatabase();
 	return text
 		.setParameter(word)
 		.setRegenerate({getObject()})

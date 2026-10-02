@@ -11,8 +11,7 @@ import eu.mihosoft.vrl.v3d.parametrics.*;
 CSG getObject(){
 	if(args==null)
 		args=["Test_key_here"]
-	CSG text =  new Hexagon(20,20).toCSG().toZMin().setColor(Color.DARKBLUE)
-	CSGDatabase.saveDatabase();
+	CSG text =  new Hexagon(20,20).toCSG().toZMin().setColor(Color.LIGHTBLUE)
 	return text
 		.setRegenerate({getObject()})
 }

@@ -17,7 +17,6 @@ CSG getObject(){
 										4,options)
 	int getMM = (int)word.getMM()
 	CSG text =  new Cylinder(20/Math.sqrt(2),0,20,getMM).toCSG().toZMin().setColor(Color.YELLOW).rotz(45)
-	CSGDatabase.saveDatabase();
 	return text
 		.setParameter(word)
 		.setRegenerate({getObject()})

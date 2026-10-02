@@ -26,7 +26,6 @@ CSG getObject(){
 	CSG core = new Cylinder(bottom.getMM()-thick,bottom.getMM()-thick,20,getMM).toCSG()
 	
 	CSG text =  toCSG.difference(core).toZMin().setColor(Color.YELLOWGREEN)
-	CSGDatabase.saveDatabase();
 	return text
 		.setParameter(word)
 		.setParameter(top)
