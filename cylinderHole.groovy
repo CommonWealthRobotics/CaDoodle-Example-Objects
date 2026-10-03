@@ -40,7 +40,7 @@ CSG getObject(){
 	}else {
 		local= new Cylinder(radius,radius,h,sides).toCSG()
 	}
-	CSG text =  local.toZMin().setColor(Color.ORANGE).setIsHole(true)
+	CSG text =  local.toZMin().setColor(Color.WHITE).setIsHole(true)
 	return text
 		.setParameter(word)
 		.setParameter(rad)
