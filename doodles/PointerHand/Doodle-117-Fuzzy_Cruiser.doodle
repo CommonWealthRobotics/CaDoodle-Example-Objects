@@ -1,0 +1,1749 @@
+{
+  "opperations": [
+    {
+      "type": "AddFromScript",
+      "data": {
+        "gitULR": "https://github.com/CommonWealthRobotics/CaDoodle-Example-Objects.git",
+        "fileRel": "cylinder.groovy",
+        "location": {
+          "x": 9.0,
+          "y": 7.0,
+          "z": -1.0E-6,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "preventBoM": false,
+        "name": "Funky_Dragon_Mdn8G1eJqy"
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Funky_Dragon_Mdn8G1eJqy"
+        ],
+        "height": {
+          "x": 9.0,
+          "y": 7.0,
+          "z": 2.999998999999999,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 19.0,
+          "y": 17.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -1.0,
+          "y": -3.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "referenceBounds": {
+          "center": {
+            "x": 9.0,
+            "y": 7.0,
+            "z": 9.999998999999999
+          },
+          "bounds": {
+            "x": 20.0,
+            "y": 20.0,
+            "z": 20.0
+          },
+          "min": {
+            "x": -1.0,
+            "y": -3.0,
+            "z": -1.0E-6
+          },
+          "max": {
+            "x": 19.0,
+            "y": 17.0,
+            "z": 19.999999
+          }
+        }
+      }
+    },
+    {
+      "type": "AddFromScript",
+      "data": {
+        "gitULR": "https://github.com/CommonWealthRobotics/CaDoodle-Example-Objects.git",
+        "fileRel": "toroid.groovy",
+        "location": {
+          "x": 9.0,
+          "y": 7.0,
+          "z": 2.999997999999998,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "preventBoM": false,
+        "name": "Lush_Sprocket_ghDAu1EkcI"
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -2.999997999999998,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Lush_Sprocket_ghDAu1EkcI"
+        ],
+        "name": "Marvelous_Zeppelin_4WTd0qJIXw",
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "dropMode": true
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Funky_Dragon_Mdn8G1eJqy",
+          "Lush_Sprocket_ghDAu1EkcI"
+        ],
+        "groupID": "Scintillating_Hyperloop_bZ5bUdCznX",
+        "hull": false,
+        "intersect": false,
+        "name": "Fantastic_Titan_Vlc7ffiNcU"
+      }
+    },
+    {
+      "type": "AddFromScript",
+      "data": {
+        "gitULR": "https://github.com/CommonWealthRobotics/CaDoodle-Example-Objects.git",
+        "fileRel": "cylinder.groovy",
+        "location": {
+          "x": 8.999999999999998,
+          "y": 7.0,
+          "z": 6.999999000000003,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "preventBoM": false,
+        "name": "Robust_Robopup_xnEBywj7Rf"
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 1.000000000139778E-6,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Robust_Robopup_xnEBywj7Rf"
+        ],
+        "name": "Chipper_Seahorse_vEY9aW4fOk",
+        "workplane": {
+          "x": 8.999999999999998,
+          "y": 7.0,
+          "z": 7.0000000000000036,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "dropMode": true
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -7.0000000000000036,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Robust_Robopup_xnEBywj7Rf"
+        ],
+        "name": "Spirited_Monowheel_VS4ChbQg4v",
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "dropMode": true
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Robust_Robopup_xnEBywj7Rf"
+        ],
+        "height": {
+          "x": 9.0,
+          "y": 7.0,
+          "z": 15.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 16.5,
+          "y": 14.5,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": 1.4999999999999982,
+          "y": -0.5,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "referenceBounds": {
+          "center": {
+            "x": 9.0,
+            "y": 7.0,
+            "z": 10.0
+          },
+          "bounds": {
+            "x": 15.000000000000002,
+            "y": 15.0,
+            "z": 20.0
+          },
+          "min": {
+            "x": 1.4999999999999982,
+            "y": -0.5,
+            "z": 0.0
+          },
+          "max": {
+            "x": 16.5,
+            "y": 14.5,
+            "z": 20.0
+          }
+        }
+      }
+    },
+    {
+      "type": "AddFromScript",
+      "data": {
+        "gitULR": "https://github.com/CommonWealthRobotics/CaDoodle-Example-Objects.git",
+        "fileRel": "halfSphere.groovy",
+        "location": {
+          "x": 9.0,
+          "y": 7.0,
+          "z": 14.999999,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "preventBoM": false,
+        "name": "Whimsical_Explorer_WXHpS2nqrp"
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Scintillating_Hyperloop_bZ5bUdCznX",
+          "Robust_Robopup_xnEBywj7Rf",
+          "Whimsical_Explorer_WXHpS2nqrp"
+        ],
+        "groupID": "Untamed_Troll_kvhYyaoQI4",
+        "hull": false,
+        "intersect": false,
+        "name": "Twinkling_Cloudrunner_x6H8kxc4ZH"
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Untamed_Troll_kvhYyaoQI4"
+        ],
+        "height": {
+          "x": 15.999999999999998,
+          "y": 7.0,
+          "z": 22.499999000000003,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 33.0,
+          "y": 17.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -1.0000000000000018,
+          "y": -3.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "referenceBounds": {
+          "center": {
+            "x": 9.0,
+            "y": 7.0,
+            "z": 11.249999
+          },
+          "bounds": {
+            "x": 20.0,
+            "y": 20.0,
+            "z": 22.500000000000004
+          },
+          "min": {
+            "x": -1.0000000000000018,
+            "y": -3.0,
+            "z": -1.0E-6
+          },
+          "max": {
+            "x": 19.0,
+            "y": 17.0,
+            "z": 22.499999000000003
+          }
+        }
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Untamed_Troll_kvhYyaoQI4"
+        ],
+        "height": {
+          "x": 15.999999999999998,
+          "y": 7.0,
+          "z": 27.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 33.0,
+          "y": 17.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -1.0000000000000018,
+          "y": -3.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "referenceBounds": {
+          "center": {
+            "x": 16.0,
+            "y": 7.0,
+            "z": 11.249999
+          },
+          "bounds": {
+            "x": 34.0,
+            "y": 20.0,
+            "z": 22.500000000000004
+          },
+          "min": {
+            "x": -1.0000000000000018,
+            "y": -3.0,
+            "z": -1.0E-6
+          },
+          "max": {
+            "x": 33.0,
+            "y": 17.0,
+            "z": 22.499999000000003
+          }
+        }
+      }
+    },
+    {
+      "type": "AddFromScript",
+      "data": {
+        "gitULR": "https://github.com/CommonWealthRobotics/CaDoodle-Example-Objects.git",
+        "fileRel": "sphere.groovy",
+        "location": {
+          "x": -2.0,
+          "y": 30.0,
+          "z": -1.0E-6,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "preventBoM": false,
+        "name": "Warmhearted_Gnome_DPMAo1KtAV"
+      }
+    },
+    {
+      "type": "AddFromScript",
+      "data": {
+        "gitULR": "https://github.com/CommonWealthRobotics/CaDoodle-Example-Objects.git",
+        "fileRel": "cylinder.groovy",
+        "location": {
+          "x": -2.0,
+          "y": 30.0,
+          "z": 19.999997999999998,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "preventBoM": false,
+        "name": "Exuberant_Sphinx_YoiQ1wVP2A"
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -9.999998999999999,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Exuberant_Sphinx_YoiQ1wVP2A"
+        ],
+        "name": "Effervescent_Eagle_sBMvA73bcw",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "AddFromScript",
+      "data": {
+        "gitULR": "https://github.com/CommonWealthRobotics/CaDoodle-Example-Objects.git",
+        "fileRel": "sphere.groovy",
+        "location": {
+          "x": -2.0,
+          "y": 30.0,
+          "z": 29.999997999999998,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "preventBoM": false,
+        "name": "Sizzling_Thunderbolt_t1cT4fzIiD"
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -9.999998999999999,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Sizzling_Thunderbolt_t1cT4fzIiD"
+        ],
+        "name": "Bold_Pilot_JrBGzNkmHF",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Warmhearted_Gnome_DPMAo1KtAV",
+          "Exuberant_Sphinx_YoiQ1wVP2A",
+          "Sizzling_Thunderbolt_t1cT4fzIiD"
+        ],
+        "groupID": "Buoyant_Skysurfer_vWLHyos9JS",
+        "hull": false,
+        "intersect": false,
+        "name": "Frisky_Speedster_qa1s9VBJZD"
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Buoyant_Skysurfer_vWLHyos9JS"
+        ],
+        "height": {
+          "x": -2.0,
+          "y": 30.0,
+          "z": 17.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 2.2500002500000003,
+          "y": 34.25000025,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -6.25000025,
+          "y": 25.74999975,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "referenceBounds": {
+          "center": {
+            "x": -2.0,
+            "y": 30.0,
+            "z": 19.999999000000003
+          },
+          "bounds": {
+            "x": 20.0,
+            "y": 20.0,
+            "z": 40.0
+          },
+          "min": {
+            "x": -12.0,
+            "y": 20.0,
+            "z": -1.0E-6
+          },
+          "max": {
+            "x": 8.0,
+            "y": 40.0,
+            "z": 39.999999
+          }
+        }
+      }
+    },
+    {
+      "type": "Paste",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Buoyant_Skysurfer_vWLHyos9JS"
+        ],
+        "name": "Rainbow_Monowheel_fp2mzb510i"
+      }
+    },
+    {
+      "type": "Paste",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Rainbow_Monowheel_fp2mzb510i_4"
+        ],
+        "name": "Perky_Stargazer_nyUj8QfaDA"
+      }
+    },
+    {
+      "type": "Paste",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Perky_Stargazer_nyUj8QfaDA_4"
+        ],
+        "name": "Joyous_Colossus_2cviVe5rht"
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 21.0,
+          "y": 10.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Joyous_Colossus_2cviVe5rht_4"
+        ],
+        "name": "Agile_Goliath_CyUicN5xhk",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 14.0,
+          "y": 18.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Buoyant_Skysurfer_vWLHyos9JS"
+        ],
+        "name": "Jubilant_Fox_zaGgRNCzRb",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -15.0,
+          "y": 2.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Rainbow_Monowheel_fp2mzb510i_4"
+        ],
+        "name": "Efflorescent_Aerohawk_xTztlZQr1f",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "UnGroup",
+      "data": {
+        "names": [
+          "Perky_Stargazer_nyUj8QfaDA_4"
+        ]
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 11.500000499999999,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Perky_Stargazer_nyUj8QfaDA_3"
+        ],
+        "name": "Starry_Cyclops_FD8zMNVOZ3",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Perky_Stargazer_nyUj8QfaDA_2"
+        ],
+        "height": {
+          "x": -2.000000000000001,
+          "y": 30.0,
+          "z": 25.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 2.2500002499999994,
+          "y": 34.25000025,
+          "z": 4.24999925,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -6.25000025,
+          "y": 25.74999975,
+          "z": 4.24999925,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "referenceBounds": {
+          "center": {
+            "x": -2.0000000000000004,
+            "y": 30.0,
+            "z": 8.499999500000001
+          },
+          "bounds": {
+            "x": 8.500000499999999,
+            "y": 8.500000499999999,
+            "z": 8.500000500000002
+          },
+          "min": {
+            "x": -6.25000025,
+            "y": 25.74999975,
+            "z": 4.24999925
+          },
+          "max": {
+            "x": 2.2500002499999994,
+            "y": 34.25000025,
+            "z": 12.749999750000002
+          }
+        }
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Perky_Stargazer_nyUj8QfaDA_2"
+        ],
+        "height": {
+          "x": -2.0000000000000004,
+          "y": 30.0,
+          "z": 25.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 2.2500002499999994,
+          "y": 34.25000025,
+          "z": 4.24999925,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -6.25000025,
+          "y": 25.74999975,
+          "z": 4.24999925,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "referenceBounds": {
+          "center": {
+            "x": -2.0000000000000004,
+            "y": 30.0,
+            "z": 14.624999624999997
+          },
+          "bounds": {
+            "x": 8.500000499999999,
+            "y": 8.500000499999999,
+            "z": 20.750000749999998
+          },
+          "min": {
+            "x": -6.25000025,
+            "y": 25.74999975,
+            "z": 4.24999925
+          },
+          "max": {
+            "x": 2.2500002499999994,
+            "y": 34.25000025,
+            "z": 24.999999999999996
+          }
+        }
+      }
+    },
+    {
+      "type": "Resize",
+      "data": {
+        "names": [
+          "Perky_Stargazer_nyUj8QfaDA_2"
+        ],
+        "height": {
+          "x": -2.000000000000001,
+          "y": 30.0,
+          "z": 24.3,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "leftFront": {
+          "x": 2.2500002499999994,
+          "y": 34.25000025,
+          "z": 4.24999925,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "rightRear": {
+          "x": -6.25000025,
+          "y": 25.74999975,
+          "z": 4.24999925,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "workplane": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "referenceBounds": {
+          "center": {
+            "x": -2.0000000000000004,
+            "y": 30.0,
+            "z": 14.624999624999997
+          },
+          "bounds": {
+            "x": 8.500000499999999,
+            "y": 8.500000499999999,
+            "z": 20.750000749999998
+          },
+          "min": {
+            "x": -6.25000025,
+            "y": 25.74999975,
+            "z": 4.24999925
+          },
+          "max": {
+            "x": 2.2500002499999994,
+            "y": 34.25000025,
+            "z": 24.999999999999996
+          }
+        }
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Perky_Stargazer_nyUj8QfaDA_1",
+          "Perky_Stargazer_nyUj8QfaDA_2",
+          "Perky_Stargazer_nyUj8QfaDA_3"
+        ],
+        "groupID": "Jovial_Mechabot_z33er91vD1",
+        "hull": false,
+        "intersect": false,
+        "name": "Silver_Roboraptor_1G5SdNdDor"
+      }
+    },
+    {
+      "type": "Paste",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Rainbow_Monowheel_fp2mzb510i_4"
+        ],
+        "name": "Bouncy_Troll_fu3t5mgCA6"
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -0.8,
+          "y": 11.700000000000001,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Bouncy_Troll_fu3t5mgCA6_4"
+        ],
+        "name": "Snazzy_Roboraptor_iMziZXSf45",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -0.03735324893240488,
+          "y": 0.0,
+          "z": 17.0777831238033,
+          "rotation": {
+            "w": 0.901446774751356,
+            "x": 0.0,
+            "y": 0.43288995401877595,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Bouncy_Troll_fu3t5mgCA6_4"
+        ],
+        "name": "Kindly_Rover_FiSA28cnDB",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "UnGroup",
+      "data": {
+        "names": [
+          "Untamed_Troll_kvhYyaoQI4"
+        ]
+      }
+    },
+    {
+      "type": "Hide",
+      "data": {
+        "names": [
+          "Whimsical_Explorer_WXHpS2nqrp"
+        ]
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 37.7,
+          "y": 6.099999999999993,
+          "z": 18.0,
+          "rotation": {
+            "w": 0.7071067811865476,
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.7071067811865475
+          }
+        },
+        "names": [
+          "Jovial_Mechabot_z33er91vD1"
+        ],
+        "name": "Marvelous_Skimmer_0pQ1fZ8pVf",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 45.50000000000001,
+          "y": 22.499999999999993,
+          "z": 18.0,
+          "rotation": {
+            "w": 0.7071067811865476,
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.7071067811865475
+          }
+        },
+        "names": [
+          "Rainbow_Monowheel_fp2mzb510i_4"
+        ],
+        "name": "Teeming_Stargazer_5sG4JkDfI8",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 67.1,
+          "y": -5.200000000000008,
+          "z": 18.0,
+          "rotation": {
+            "w": 0.7071067811865476,
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.7071067811865475
+          }
+        },
+        "names": [
+          "Buoyant_Skysurfer_vWLHyos9JS"
+        ],
+        "name": "Magical_Biplane_qLLoi4jIdg",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 64.6,
+          "y": -11.000000000000007,
+          "z": 18.0,
+          "rotation": {
+            "w": 0.7071067811865476,
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.7071067811865475
+          }
+        },
+        "names": [
+          "Joyous_Colossus_2cviVe5rht_4"
+        ],
+        "name": "Majestic_Ogre_UWxxBwYkdS",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 52.2,
+          "y": 25.299999999999986,
+          "z": 16.406856490743515,
+          "rotation": {
+            "w": 0.7071067811865476,
+            "x": 0.0,
+            "y": 0.0,
+            "z": -0.7071067811865475
+          }
+        },
+        "names": [
+          "Bouncy_Troll_fu3t5mgCA6_4"
+        ],
+        "name": "Perky_Glider_IczSqb0lXn",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 7.437139502433521,
+          "y": 18.785846337900963,
+          "z": -1.0658141036401503E-14,
+          "rotation": {
+            "w": 0.4536512771983858,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.8911792853832912
+          }
+        },
+        "names": [
+          "Bouncy_Troll_fu3t5mgCA6_4"
+        ],
+        "name": "Jovial_Aerohawk_ozkrXJQCLK",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -6.1000000000000005,
+          "y": 5.6000000000000005,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Bouncy_Troll_fu3t5mgCA6_4"
+        ],
+        "name": "Kindly_Stormrider_cqtXarjez6",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -6.899998999999982,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Bouncy_Troll_fu3t5mgCA6_4"
+        ],
+        "name": "Mystical_Golem_AJmO4DcNyl",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "Show",
+      "data": {
+        "names": [
+          "Whimsical_Explorer_WXHpS2nqrp"
+        ]
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.9,
+          "y": 6.4,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Rainbow_Monowheel_fp2mzb510i_4"
+        ],
+        "name": "Snappy_Elemental_HzjEuUz9qx",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.7000000000000001,
+          "y": 4.6000000000000005,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Buoyant_Skysurfer_vWLHyos9JS"
+        ],
+        "name": "Zealous_Exosuit_LNgDb4T6sg",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 1.7000000000000002,
+          "y": 3.4000000000000004,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Joyous_Colossus_2cviVe5rht_4"
+        ],
+        "name": "Agile_Gremlin_WdWsoPQSOc",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": -0.8346148604408707,
+          "z": 0.38282382408781146,
+          "rotation": {
+            "w": 0.9998742218420642,
+            "x": 0.01586002823852032,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Rainbow_Monowheel_fp2mzb510i_4",
+          "Buoyant_Skysurfer_vWLHyos9JS",
+          "Joyous_Colossus_2cviVe5rht_4"
+        ],
+        "name": "Mystical_Firefly_KfY1hm1dDK",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -1.0658141036401503E-14,
+          "y": 20.023376445627797,
+          "z": -1.210270083672519,
+          "rotation": {
+            "w": 0.9380555511643736,
+            "x": -0.34648489567325064,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Rainbow_Monowheel_fp2mzb510i_4",
+          "Buoyant_Skysurfer_vWLHyos9JS",
+          "Joyous_Colossus_2cviVe5rht_4"
+        ],
+        "name": "Bubbly_Firefly_l75fiv32Y2",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Rainbow_Monowheel_fp2mzb510i_4",
+          "Buoyant_Skysurfer_vWLHyos9JS",
+          "Joyous_Colossus_2cviVe5rht_4"
+        ],
+        "groupID": "Fruitful_Monowheel_OtiEMTk8j1",
+        "hull": false,
+        "intersect": false,
+        "name": "Zippy_Starbot_OiDoTYM5Lc"
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -2.3000000000000003,
+          "y": -1.4000000000000001,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Fruitful_Monowheel_OtiEMTk8j1"
+        ],
+        "name": "Comfy_Hovercraft_LMjwtrqHnP",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -4.078309746522492,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Fruitful_Monowheel_OtiEMTk8j1"
+        ],
+        "name": "Amazing_Mechabot_PIq7Iys4YS",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -0.9,
+          "y": -1.2000000000000002,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Fruitful_Monowheel_OtiEMTk8j1"
+        ],
+        "name": "Sociable_Jet_R9pMVFkXxW",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 2.9000000000000004,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Fruitful_Monowheel_OtiEMTk8j1"
+        ],
+        "name": "Shimmering_Butterfly_RRC163Sn93",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "UnGroup",
+      "data": {
+        "names": [
+          "Fruitful_Monowheel_OtiEMTk8j1"
+        ]
+      }
+    },
+    {
+      "type": "UnGroup",
+      "data": {
+        "names": [
+          "Rainbow_Monowheel_fp2mzb510i_4",
+          "Buoyant_Skysurfer_vWLHyos9JS",
+          "Joyous_Colossus_2cviVe5rht_4"
+        ]
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -3.4000000000000004,
+          "y": 1.1,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Jovial_Mechabot_z33er91vD1"
+        ],
+        "name": "Turbo_Navigator_KWknKEiop8",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Whimsical_Explorer_WXHpS2nqrp",
+          "Rainbow_Monowheel_fp2mzb510i_3",
+          "Sizzling_Thunderbolt_t1cT4fzIiD",
+          "Joyous_Colossus_2cviVe5rht_3"
+        ],
+        "groupID": "Sassy_Dragon_EzdyVdg5qv",
+        "hull": false,
+        "intersect": false,
+        "name": "Magical_Skycycle_XQ15dDIXXa"
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Sassy_Dragon_EzdyVdg5qv"
+        ],
+        "groupID": "Glistening_Skywhale_LepXyYkNyN",
+        "hull": true,
+        "intersect": false,
+        "name": "Wonderful_Nanobot_GHvUgHyGr5"
+      }
+    },
+    {
+      "type": "UnGroup",
+      "data": {
+        "names": [
+          "Jovial_Mechabot_z33er91vD1"
+        ]
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Glistening_Skywhale_LepXyYkNyN",
+          "Perky_Stargazer_nyUj8QfaDA_1"
+        ],
+        "groupID": "Heroic_Robokitty_uWfznPVcCU",
+        "hull": false,
+        "intersect": false,
+        "name": "Ingenious_Widget_xvDGfafHQ3"
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Heroic_Robokitty_uWfznPVcCU"
+        ],
+        "groupID": "Incandescent_Biplane_HdVxjJweuN",
+        "hull": true,
+        "intersect": false,
+        "name": "Shimmering_Hyperloop_GZrqqPsL4i"
+      }
+    },
+    {
+      "type": "Group",
+      "data": {
+        "names": [
+          "Scintillating_Hyperloop_bZ5bUdCznX",
+          "Robust_Robopup_xnEBywj7Rf",
+          "Bouncy_Troll_fu3t5mgCA6_4",
+          "Rainbow_Monowheel_fp2mzb510i_1",
+          "Rainbow_Monowheel_fp2mzb510i_2",
+          "Warmhearted_Gnome_DPMAo1KtAV",
+          "Exuberant_Sphinx_YoiQ1wVP2A",
+          "Joyous_Colossus_2cviVe5rht_1",
+          "Joyous_Colossus_2cviVe5rht_2",
+          "Perky_Stargazer_nyUj8QfaDA_2",
+          "Perky_Stargazer_nyUj8QfaDA_3",
+          "Incandescent_Biplane_HdVxjJweuN"
+        ],
+        "groupID": "Nifty_Narwhal_EMEPrby9cN",
+        "hull": false,
+        "intersect": false,
+        "name": "Shimmering_Turbojet_JBgn0ha2dv"
+      }
+    },
+    {
+      "type": "ToSolid",
+      "data": {
+        "names": [
+          "Nifty_Narwhal_EMEPrby9cN"
+        ],
+        "r": 0.9686274528503418,
+        "g": 0.95686274766922,
+        "b": 0.9333333373069763,
+        "a": 1.0,
+        "useColor": true
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -4.0,
+          "y": -5.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Nifty_Narwhal_EMEPrby9cN"
+        ],
+        "name": "Jovial_Hovercopter_dIHWU0fP41",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Nifty_Narwhal_EMEPrby9cN"
+        ],
+        "name": "Polished_Pixiebot_Pz6kADwWOd",
+        "dropMode": false
+      }
+    }
+  ],
+  "currentIndex": 68,
+  "TextResolutionPoints": 0.5,
+  "timeCreated": 1791141427604,
+  "projectName": "Pointer Hand",
+  "rulerLocation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "rotation": {
+      "w": 1.0,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "workplane": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "rotation": {
+      "w": 1.0,
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "frozenIndex": 66,
+  "frozenSteps": [
+    66
+  ]
+}
