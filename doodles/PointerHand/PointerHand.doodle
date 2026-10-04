@@ -1714,9 +1714,51 @@
         "name": "Polished_Pixiebot_Pz6kADwWOd",
         "dropMode": false
       }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": 7.084695444671809,
+          "y": 13.384023421765955,
+          "z": 0.0,
+          "rotation": {
+            "w": 0.7071067811865475,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.7071067811865476
+          }
+        },
+        "names": [
+          "Nifty_Narwhal_EMEPrby9cN"
+        ],
+        "name": "Luxuriant_Cricket_kK9prhFvYu",
+        "dropMode": false
+      }
+    },
+    {
+      "type": "MoveCenter",
+      "data": {
+        "location": {
+          "x": -2.0,
+          "y": -12.0,
+          "z": 0.0,
+          "rotation": {
+            "w": 1.0,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "names": [
+          "Nifty_Narwhal_EMEPrby9cN"
+        ],
+        "name": "Rainbow_Hoversled_Iqu5q25gZU",
+        "dropMode": false
+      }
     }
   ],
-  "currentIndex": 68,
+  "currentIndex": 70,
   "TextResolutionPoints": 0.5,
   "timeCreated": 1791141427604,
   "projectName": "Pointer Hand",
@@ -1742,8 +1784,9 @@
       "z": 0.0
     }
   },
-  "frozenIndex": 66,
+  "frozenIndex": 69,
   "frozenSteps": [
-    66
+    66,
+    69
   ]
 }
